@@ -1,1 +1,57 @@
-test
+<html>
+  <head>
+    <title>Город мечты Токио</title>
+    <style>
+        img {
+            width: 100%;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: red;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            background-color: purple;
+            color: white;
+            border-radius: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🇯🇵 Токио</h1>
+    <h2>Город в Японии</h2>
+    <img src="https://img-cdn.tinkoffjournal.ru/tokio_za_odin_deny__main____shutterstock_645726217.jnjengi6garz.jpg" />
+
+    <p>
+        То́кио (яп. 東京 То:кё: (инф.), «Восточная столица») — столица Японии, её административный, финансовый,
+        промышленный и
+        политический центр.
+    </p>
+    <p>Больше информации <a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE">тут</a></p>
+
+    <p>
+        <button onclick="hello()">Нажми меня</button>
+    </p>
+
+    <script>
+        function hello() {
+            let name = prompt("Как тебя зовут?");
+            alert('Привет, ' + name);
+        }
+    </script>
+</body>
+</html>
