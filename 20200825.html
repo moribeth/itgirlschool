@@ -1,1 +1,58 @@
-test
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            color: darkred;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 40px;
+        }
+
+        button {
+            width: 100%;
+            background-color: darksalmon;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Стокгольм</h1>
+    <h2>Столица Швеции</h2>
+    <img src="https://wikiway.com/upload/hl-photo/5a0/c84/stokgolm_6.jpg" />
+    <p>
+        Стокго́льм (швед. Stockholm (инф.) [stɔkːhɔlm]) — столица и крупнейший город Швеции. Расположен на протоках,
+        соединяющих озеро Меларен с Балтийским морем. В черту города входит 14 островов.
+    </p>
+    <p>С XIII столетия является крупнейшим экономическим центром страны. Население — 961 609 жителей (2018) (9 %
+        населения
+        страны). В пригородной зоне живёт 1 252 020 человек (данные за 2005 год) — это самая густонаселённая территория
+        Швеции. Население Стокгольмской агломерации составляет 2 352 549 человек.
+    </p>
+    <p>
+        <a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%BE%D0%BA%D0%B3%D0%BE%D0%BB%D1%8C%D0%BC">Более подробно
+            читайте здесь</a>
+    </p>
+    <p>
+        <button onclick="clickme()">
+            Нажми меня
+        </button>
+    </p>
+    <script>
+        function clickMe() {
+            let name = prompt("Назови свое имя!");
+            alert('Hello, ' + name + "! Увидимся в Швеции после карантина");
+        }
+    </script>
+</body>
